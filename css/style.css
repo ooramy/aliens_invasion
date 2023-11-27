@@ -1,0 +1,89 @@
+@font-face {
+    font-family: space_age;
+    src: url("../police/space_age.ttf");
+    
+}
+body{
+    background-color: black;
+    width: 890px;
+    height: 890px;
+}
+header{
+    font-family: space_age, sans-serif;
+    margin-top: 5%;
+    background-color: bisque;
+    height: 25%;
+    width: 90%;
+
+}
+#alien{
+    height: 15%;
+    margin-top: 4%;
+    margin-left: 7%;
+    
+}
+#liste{
+    margin-left: 30%;
+    margin-top: -8%
+}
+#liste ol{
+    font-family: space_age, sans-serif;
+    list-style-type: none;
+    display: inline-flex;
+}
+#liste ol li{
+    color: teal;
+    margin: 0 10px;
+    font-size: 20px;
+
+}
+h1{
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 12%;
+}
+h1::first-letter{
+    font-size: 75px;
+}
+#main{
+    font-family: sans-serif;
+    background-color: chocolate;
+    height: 45%;
+    width: 90%;
+}
+article ol{
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+article ol li{
+    width: 40%;
+    margin: 0 5%;
+}
+article ol li ol{
+    list-style-type: disc;
+    display: block;
+}
+footer{
+    background-color: cyan;
+    height: 15%;
+    width: 90%;
+    margin-bottom: 5%;
+    
+}
+footer ol{
+    list-style-type: none;
+    display: inline-flex;
+}
+footer ol li img{
+    height: 85px;
+    margin-left: -10px;
+}
+header , footer , #main{
+    margin-left: 5%;
+    background-image: url("../images/points.png");
+    border-radius: 125px;
+    border: 5px solid;
+    border-color: teal;
+
+}
